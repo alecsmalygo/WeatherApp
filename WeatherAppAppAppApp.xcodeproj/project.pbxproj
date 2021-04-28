@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4237FDC826399B4C0029CC82 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237FDC726399B4C0029CC82 /* WeatherResponse.swift */; };
+		4237FDCB26399C890029CC82 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237FDCA26399C890029CC82 /* Weather.swift */; };
+		4237FDCE26399CBD0029CC82 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237FDCD26399CBD0029CC82 /* WeatherDetail.swift */; };
+		4237FDD126399CD00029CC82 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237FDD026399CD00029CC82 /* DailyWeather.swift */; };
+		4237FDD426399CE70029CC82 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237FDD326399CE70029CC82 /* Temperature.swift */; };
+		42E08D6826384B0B004D8FD3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E08D6726384B0B004D8FD3 /* API.swift */; };
+		42E08D6B26384D57004D8FD3 /* APII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E08D6A26384D57004D8FD3 /* APII.swift */; };
+		42E08D6E26385530004D8FD3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E08D6D26385530004D8FD3 /* NetworkManager.swift */; };
 		42E5791D263704F600DADC59 /* WeatherAppAppAppAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E5791C263704F600DADC59 /* WeatherAppAppAppAppApp.swift */; };
 		42E5791F263704F600DADC59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E5791E263704F600DADC59 /* ContentView.swift */; };
 		42E57921263704F700DADC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E57920263704F700DADC59 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4237FDC726399B4C0029CC82 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		4237FDCA26399C890029CC82 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		4237FDCD26399CBD0029CC82 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
+		4237FDD026399CD00029CC82 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		4237FDD326399CE70029CC82 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		42E08D6726384B0B004D8FD3 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		42E08D6A26384D57004D8FD3 /* APII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APII.swift; sourceTree = "<group>"; };
+		42E08D6D26385530004D8FD3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		42E57919263704F600DADC59 /* WeatherAppAppAppApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppAppAppApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E5791C263704F600DADC59 /* WeatherAppAppAppAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppAppAppAppApp.swift; sourceTree = "<group>"; };
 		42E5791E263704F600DADC59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +68,11 @@
 		42E5791B263704F600DADC59 /* WeatherAppAppAppApp */ = {
 			isa = PBXGroup;
 			children = (
+				42E579302637068B00DADC59 /* LottieAnimations */,
+				42E5792F2637068600DADC59 /* Models */,
+				42E5792E2637067E00DADC59 /* Views */,
+				42E5792D2637067300DADC59 /* ViewModels */,
+				42E5792C263705A000DADC59 /* Networking */,
 				42E5791C263704F600DADC59 /* WeatherAppAppAppAppApp.swift */,
 				42E5791E263704F600DADC59 /* ContentView.swift */,
 				42E57920263704F700DADC59 /* Assets.xcassets */,
@@ -67,6 +88,49 @@
 				42E57923263704F700DADC59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42E5792C263705A000DADC59 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				42E08D6726384B0B004D8FD3 /* API.swift */,
+				42E08D6A26384D57004D8FD3 /* APII.swift */,
+				42E08D6D26385530004D8FD3 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		42E5792D2637067300DADC59 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		42E5792E2637067E00DADC59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42E5792F2637068600DADC59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4237FDC726399B4C0029CC82 /* WeatherResponse.swift */,
+				4237FDCA26399C890029CC82 /* Weather.swift */,
+				4237FDCD26399CBD0029CC82 /* WeatherDetail.swift */,
+				4237FDD026399CD00029CC82 /* DailyWeather.swift */,
+				4237FDD326399CE70029CC82 /* Temperature.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		42E579302637068B00DADC59 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E08D6B26384D57004D8FD3 /* APII.swift in Sources */,
+				4237FDCE26399CBD0029CC82 /* WeatherDetail.swift in Sources */,
+				4237FDC826399B4C0029CC82 /* WeatherResponse.swift in Sources */,
 				42E5791F263704F600DADC59 /* ContentView.swift in Sources */,
+				42E08D6E26385530004D8FD3 /* NetworkManager.swift in Sources */,
+				42E08D6826384B0B004D8FD3 /* API.swift in Sources */,
 				42E5791D263704F600DADC59 /* WeatherAppAppAppAppApp.swift in Sources */,
+				4237FDCB26399C890029CC82 /* Weather.swift in Sources */,
+				4237FDD426399CE70029CC82 /* Temperature.swift in Sources */,
+				4237FDD126399CD00029CC82 /* DailyWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

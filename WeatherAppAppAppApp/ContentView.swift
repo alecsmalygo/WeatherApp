@@ -19,3 +19,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+// API - Application Programming Interface - Software that allows two applications to talk to each other.
+// https://openweathermap.org/api
