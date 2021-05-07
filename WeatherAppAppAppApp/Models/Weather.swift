@@ -18,7 +18,7 @@ struct Weather: Codable, Identifiable {
     var wind_speed: Double
     var wind_deg: Int
     var weather: [WeatherDetail]
-    
+
     enum CodingKey: String {
         case dt
         case temp
@@ -31,7 +31,7 @@ struct Weather: Codable, Identifiable {
         case wind_deg
         case weather
     }
-    
+
     init() {
         dt = 0
         temp = 0.0
